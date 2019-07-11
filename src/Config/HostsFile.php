@@ -79,6 +79,8 @@ class HostsFile
      * Instantiate new hosts file with the given hosts file contents
      *
      * @param string $contents
+     *
+     * @internal
      */
     public function __construct($contents)
     {
@@ -93,6 +95,8 @@ class HostsFile
      *
      * @param string $name
      * @return string[]
+     *
+     * @internal
      */
     public function getIpsForHost($name)
     {
@@ -122,6 +126,8 @@ class HostsFile
      *
      * @param string $ip
      * @return string[]
+     *
+     * @internal
      */
     public function getHostsForIp($ip)
     {
